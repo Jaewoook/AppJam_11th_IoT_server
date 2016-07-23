@@ -1,0 +1,30 @@
+{
+  "name": "appjam_11th_iot_server",
+  "version": "1.0.0",
+  "description": "AppJam 11th IoT Node.JS server",
+  "main": "app.js",
+  "scripts": {
+    "test": "set LAUNCH_MODE=TEST"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ajw4586@naver.com@github.com/LiKePAIN/AppJam_11th_IoT_server.git"
+  },
+  "keywords": [
+    "Node>JS",
+    "AppJam"
+  ],
+  "author": "Ahn Jae Wook",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LiKePAIN/AppJam_11th_IoT_server/issues"
+  },
+  "homepage": "https://github.com/LiKePAIN/AppJam_11th_IoT_server#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.5",
+    "morgan": "^1.7.0",
+    "node-gcm": "^0.14.3"
+  }
+}
